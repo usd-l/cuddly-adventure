@@ -1,161 +1,113 @@
-[05:00:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05:00:35] [ServerMain/INFO]: Loaded 7 recipes
-[05:00:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[05:00:36] [Server thread/INFO]: Loading properties
-[05:00:36] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[05:00:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:00:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:00:36] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[16:05:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:05:09] [ServerMain/INFO]: Loaded 7 recipes
+[16:05:10] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:05:10] [Server thread/INFO]: Loading properties
+[16:05:10] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[16:05:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:05:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:05:10] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[05:00:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[05:00:37] [Server thread/INFO]: Default game type: SURVIVAL
-[05:00:37] [Server thread/INFO]: Generating keypair
-[05:00:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:00:37] [Server thread/INFO]: Using epoll channel type
-[05:00:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:00:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[05:00:37] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'AuthMe' for files 'plugins/AuthMe-5.6.0-legacy.jar' and 'plugins/AuthMe-5.6.0.jar' in 'plugins'
-[05:00:37] [Server thread/INFO]: [FastLogin] Initialize logging service
-[05:00:37] [Server thread/INFO]: [FastLogin] Using legacy scheduler
-[05:00:37] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[05:00:37] [Server thread/INFO]: [FastLogin] Loading server plugin FastLogin v1.12-SNAPSHOT-927f09a
-[05:00:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:00:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:00:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:00:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:00:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:00:37] [Server thread/INFO]: Preparing level "world"
-[05:00:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:00:38] [Server thread/INFO]: Time elapsed: 314 ms
-[05:00:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:00:38] [Server thread/INFO]: Time elapsed: 97 ms
-[05:00:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:00:38] [Server thread/INFO]: Time elapsed: 98 ms
-[05:00:38] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[05:00:39] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[05:00:39] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[05:00:40] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[05:00:40] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[05:00:40] [Server thread/INFO]: [FastLogin] Enabling FastLogin v1.12-SNAPSHOT-927f09a
-[05:00:40] [Server thread/WARN]: [FastLogin] Disabling Minecraft proxy configuration. Assuming direct connections from now on.
-[05:00:40] [Server thread/INFO]: [fastlogin.hikari.HikariDataSource] FastLogin - Starting...
-[05:00:40] [Server thread/INFO]: [fastlogin.hikari.HikariDataSource] FastLogin - Start completed.
-[05:00:40] [Server thread/WARN]: [FastLogin] Either ProtocolLib or ProtocolSupport have to be installed if you don't use BungeeCord
-[05:00:40] [Server thread/INFO]: [FastLogin] Safely shutting down scheduler. This could take up to one minute.
-[05:00:40] [Server thread/INFO]: [fastlogin.hikari.HikariDataSource] FastLogin - Shutdown initiated...
-[05:00:40] [Server thread/INFO]: [fastlogin.hikari.HikariDataSource] FastLogin - Shutdown completed.
-[05:00:40] [Server thread/INFO]: Running delayed init tasks
-[05:00:40] [Server thread/INFO]: Done (4.606s)! For help, type "help"
-[05:00:40] [Server thread/INFO]: Timings Reset
-[05:00:40] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[05:00:40] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[05:00:40] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[05:00:40] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[05:00:46] [User Authenticator #0/INFO]: UUID of player Matematicamente is 4b514d78-3943-38b0-ae67-b330ea75f3d7
-[05:00:46] [Server thread/INFO]: Matematicamente joined the game
-[05:00:46] [Server thread/INFO]: Matematicamente[/127.104.164.234:39109] logged in with entity id 241 at ([world]117.36751071143844, 73.0, 26.36804614303685)
-[05:00:52] [User Authenticator #0/INFO]: UUID of player Estafar is 3a1036ad-2cef-332c-92a1-782b00b49046
-[05:00:52] [Server thread/INFO]: Estafar joined the game
-[05:00:52] [Server thread/INFO]: Estafar[/127.18.67.171:44191] logged in with entity id 268 at ([world]114.03883620902599, 74.0, 18.644571333417325)
-[05:00:55] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] Matematicamente logged in 127.104.164.234
-[05:01:22] [Server thread/INFO]: Estafar lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
-[05:01:22] [Server thread/INFO]: Estafar left the game
-[05:01:25] [User Authenticator #0/INFO]: UUID of player Estafar is 3a1036ad-2cef-332c-92a1-782b00b49046
-[05:01:25] [Server thread/INFO]: Estafar joined the game
-[05:01:25] [Server thread/INFO]: Estafar[/127.18.67.171:48397] logged in with entity id 310 at ([world]114.03883620902599, 74.0, 18.644571333417325)
-[05:01:31] [Server thread/INFO]: Estafar issued server command: /premium Estafar
-[05:01:34] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Estafar used the wrong password
-[05:01:34] [Server thread/INFO]: Estafar lost connection: Wrong password!
-[05:01:34] [Server thread/INFO]: Estafar left the game
-[05:01:37] [User Authenticator #0/INFO]: UUID of player Estafar is 3a1036ad-2cef-332c-92a1-782b00b49046
-[05:01:37] [Server thread/INFO]: Estafar joined the game
-[05:01:37] [Server thread/INFO]: Estafar[/127.18.67.171:60855] logged in with entity id 336 at ([world]114.03883620902599, 74.0, 18.644571333417325)
-[05:01:40] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] Estafar logged in 127.18.67.171
-[05:01:44] [Server thread/INFO]: Estafar issued server command: /premium
-[05:01:44] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Cannot execute command 'premium' in plugin FastLogin v1.12-SNAPSHOT-927f09a - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+[16:05:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:05:11] [Server thread/INFO]: Default game type: SURVIVAL
+[16:05:11] [Server thread/INFO]: Generating keypair
+[16:05:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:05:11] [Server thread/INFO]: Using epoll channel type
+[16:05:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:05:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:05:11] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'AuthMe' for files 'plugins/AuthMe-5.6.0-legacy.jar' and 'plugins/AuthMe-5.6.0.jar' in 'plugins'
+[16:05:11] [Server thread/INFO]: [FastLogin] Initialize logging service
+[16:05:11] [Server thread/INFO]: [FastLogin] Using legacy scheduler
+[16:05:11] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:05:14] [Server thread/WARN]: Legacy plugin WorldsSpawns v1.3 does not specify an api-version.
+[16:05:14] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[16:05:14] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[16:05:14] [Server thread/INFO]: [FastLogin] Loading server plugin FastLogin v1.12-SNAPSHOT-927f09a
+[16:05:14] [Server thread/INFO]: [WorldsSpawns] Loading server plugin WorldsSpawns v1.3
+[16:05:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[16:05:14] [Server thread/INFO]: [Orebfuscator4] Loading server plugin Orebfuscator4 v4.4.3
+[16:05:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:05:14] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[16:05:14] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[16:05:15] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[16:05:15] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[16:05:15] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:05:15] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[16:05:15] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[16:05:15] [Server thread/INFO]: [Orebfuscator4] Enabling Orebfuscator4 v4.4.3
+[16:05:15] [Server thread/ERROR]: Error occurred while enabling Orebfuscator4 v4.4.3 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "com.lishid.orebfuscator.nms.INmsManager.getMaterialIds(org.bukkit.Material)" because "com.lishid.orebfuscator.NmsInstance.current" is null
+	at com.lishid.orebfuscator.utils.MaterialHelper.init(MaterialHelper.java:24) ~[orebfuscator-4.4.3.jar:?]
+	at com.lishid.orebfuscator.Orebfuscator.onEnable(Orebfuscator.java:70) ~[orebfuscator-4.4.3.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[05:01:46] [Server thread/INFO]: Estafar issued server command: /premium Estafar
-[05:01:46] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Cannot execute command 'premium' in plugin FastLogin v1.12-SNAPSHOT-927f09a - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
-	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114) ~[?:?]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1424) ~[paper-1.20.1.jar:git-Paper-196]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
+[16:05:15] [Server thread/INFO]: [Orebfuscator4] Disabling Orebfuscator4 v4.4.3
+[16:05:15] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling Orebfuscator4 v4.4.3 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "com.lishid.orebfuscator.nms.INmsManager.createChunkCache()" because "com.lishid.orebfuscator.NmsInstance.current" is null
+	at com.lishid.orebfuscator.cache.ObfuscatedDataCache.getInternalCache(ObfuscatedDataCache.java:40) ~[orebfuscator-4.4.3.jar:?]
+	at com.lishid.orebfuscator.cache.ObfuscatedDataCache.closeCacheFiles(ObfuscatedDataCache.java:66) ~[orebfuscator-4.4.3.jar:?]
+	at com.lishid.orebfuscator.Orebfuscator.onDisable(Orebfuscator.java:172) ~[orebfuscator-4.4.3.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:193) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:274) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[05:01:52] [Server thread/INFO]: Stopping the server
-[05:01:52] [Server thread/INFO]: Stopping server
-[05:01:52] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
-[05:01:52] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[05:01:52] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
-[05:01:52] [Server thread/INFO]: Saving players
-[05:01:52] [Server thread/INFO]: Matematicamente lost connection: Server closed
-[05:01:52] [Server thread/INFO]: Matematicamente left the game
-[05:01:52] [Server thread/INFO]: Estafar lost connection: Server closed
-[05:01:52] [Server thread/INFO]: Estafar left the game
-[05:01:52] [Server thread/INFO]: Saving worlds
-[05:01:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:01:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[05:01:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[05:01:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[05:01:53] [Server thread/INFO]: [ChunkHolderManager] Saved 701 block chunks, 701 entity chunks, 0 poi chunks in world 'world' in 1.34s
-[05:01:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:01:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:01:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[05:01:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[05:01:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[05:01:54] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.46s
-[05:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:01:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:01:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[05:01:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[05:01:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[05:01:54] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.15s
-[05:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:01:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05:01:54] [Server thread/INFO]: Flushing Chunk IO
-[05:01:54] [Server thread/INFO]: Closing Thread Pool
-[05:01:54] [Server thread/INFO]: Closing Server
+[16:05:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:05:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:05:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:05:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:05:15] [Server thread/INFO]: Preparing level "world"
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[16:05:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[16:05:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:05:16] [Server thread/INFO]: Time elapsed: 207 ms
+[16:05:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:05:16] [Server thread/INFO]: Time elapsed: 117 ms
+[16:05:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:05:16] [Server thread/INFO]: Time elapsed: 52 ms
+[16:05:16] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[16:05:17] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[16:05:17] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[16:05:17] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[16:05:17] [Server thread/INFO]: [FastLogin] Enabling FastLogin v1.12-SNAPSHOT-927f09a
+[16:05:18] [Server thread/WARN]: [FastLogin] Disabling Minecraft proxy configuration. Assuming direct connections from now on.
+[16:05:18] [Server thread/INFO]: [fastlogin.hikari.HikariDataSource] FastLogin - Starting...
+[16:05:18] [Server thread/INFO]: [fastlogin.hikari.HikariDataSource] FastLogin - Start completed.
+[16:05:18] [Server thread/INFO]: [WorldsSpawns] Enabling WorldsSpawns v1.3*
+[16:05:18] [Server thread/INFO]: [WorldsSpawns] [STDOUT] WorldsSpawns 1.3 has been enabled
+[16:05:18] [Server thread/WARN]: Nag author(s): '[dino14]' of 'WorldsSpawns v1.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[16:05:18] [Server thread/INFO]: Running delayed init tasks
+[16:05:18] [Server thread/INFO]: Done (8.082s)! For help, type "help"
+[16:05:18] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[16:05:18] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[16:05:18] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[16:05:18] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[16:05:18] [Server thread/INFO]: Timings Reset
+[16:05:18] [Server thread/INFO]: [FastLogin] Hooking into auth plugin: AuthMeHook

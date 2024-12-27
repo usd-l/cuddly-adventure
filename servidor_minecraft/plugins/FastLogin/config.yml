@@ -260,7 +260,7 @@ allowFloodgateNameConflict: false
 # Requires 'autoRegister' to be 'true'
 # !!!!!!!! WARNING: FLOODGATE SUPPORT IS AN EXPERIMENTAL FEATURE !!!!!!!!
 # Enabling this might lead to people gaining unauthorized access to other's accounts!
-autoRegisterFloodgate: false
+autoRegisterFloodgate: true
 
 # This option resembles the vanilla configuration option 'enforce-secure-profile' in the 'server.properties' file.
 # It verifies if the incoming cryptographic key in the login request from the player is signed by Mojang. This key

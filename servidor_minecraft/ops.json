@@ -1,5 +1,23 @@
 [
   {
+    "uuid": "3a1036ad-2cef-332c-92a1-782b00b49046",
+    "name": "Estafar",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c601943f-93ed-339a-8747-6496359743b1",
+    "name": "Geograficamente",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4b514d78-3943-38b0-ae67-b330ea75f3d7",
+    "name": "Matematicamente",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "15b15037-a674-32c7-9667-4ddff06ac846",
     "name": "disociar",
     "level": 4,

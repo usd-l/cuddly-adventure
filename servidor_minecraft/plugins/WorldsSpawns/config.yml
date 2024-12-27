@@ -1,0 +1,14 @@
+EnableHub: true
+TeleportToHubOnJoin: false
+Messages:
+  HubTeleport: '&eYou have been teleported to the server hub'
+  setHub: '&eYou have set the hub to '
+  TeleportedBy: '&eYou have been teleported to the server hub'
+  TeleportOther: '&eYou have teleported %player% to the server hub'
+  Respawn: '&eYou died and we teleported you to the world spawn'
+  SpawnTeleport: '&eYou teleported to the world spawn'
+HubLocation:
+  x: 0
+  y: 0
+  z: 0
+  world: world
